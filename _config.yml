@@ -1,8 +1,10 @@
 title: Data Analytics Portfolio
-description: sample of Data Analytics skills
-theme: jekyll-theme-primer  # You can use any available GitHub Pages theme
+description: Sample of Data Analytics skills showcasing SQL, Tableau, and Python projects.
+theme: jekyll-theme-primer  # Ensure this theme meets your design needs
 baseurl: ""   # Leave empty unless the site is served from a subpath
-url: "https://github.com/git4nader/NaderFarrPortfolio.io/"  # Replace with your GitHub Pages URL
+
+# Update the URL to point to your GitHub Pages site
+url: "https://git4nader.github.io/NaderFarrPortfolio.io"  # Replace with your actual GitHub Pages URL
 
 # Plugins to extend the functionality of your site
 plugins:
@@ -10,4 +12,24 @@ plugins:
 
 markdown: kramdown   # Jekyll uses Kramdown for Markdown processing by default
 
-paginate: 5  # Optional: For pagination of blog posts
+# Pagination settings (if applicable)
+paginate: 5  # Number of posts per page
+paginate_path: "/page:num/"  # Path for pagination
+
+# Optional: Exclude certain files or directories from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+
+# Optional: Add a favicon
+# Uncomment and set the path if you have a favicon
+# favicon: "/assets/images/favicon.ico"
+
+# Optional: Add additional site settings
+# For example, to set the timezone
+timezone: "America/Los_Angeles"
+
+# Optional: Add social media links or other configurations
